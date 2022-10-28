@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 10, 2015, 2:13:59 PM
+    Author     : indikaaruna
+*/
+
+/* general tags */
+html {
+    font-size: 82%
+}
+
+input,
+select,
+textarea {
+    font-size: 1em;
+}
+
+
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-left: 0px;
+    color: #444;
+    background: #fff;
+}
+
+
+h1 {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #fff;
+    padding: 10px 0 10px;
+    padding-left: 3px;
+    color: #777;
+}
+
+
+/*UI*/
+fieldset {
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #33FFFF;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 1px 1px 2px #fff inset;
+    margin-top: 1em;
+    padding: 1.5em;
+}
+fieldset {
+    background: none repeat scroll 0 0 #3399FF;
+    border: 1px solid #33FFFF;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 1px 1px 2px #fff inset;
+    margin-top: 1em;
+    padding: 1.5em;
+}
+#container {
+    margin: 0 auto;
+    text-align: left;
+    width: 80em;
+}
+fieldset legend {
+    background-color: #0099FF;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    box-shadow: 3px 3px 15px #66CCFF;
+    color: #fff;
+    font-weight: bold;
+    max-width: 100%;
+    padding: 5px 10px;
+
+}
+fieldset.form-fotter {
+    border-radius: 0 0 4px 5px;
+    border-top: 0 none;
+    clear: both;
+    float: none;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    text-align: right;
+}
+.form-fotter {
+    background: none repeat scroll 0 0 #33CCFF;
+    color: #000;
+    font-weight: normal;
+}
+.form-message {
+    background: none repeat scroll 0 0 #33CCFF ;
+    color: #fff;
+    font-weight: normal;
+    visibility: hidden;
+}
+.form-message.success {
+    background-color: #00FF99;
+    visibility: visible;
+}
+.form-message.info {
+    background-color: #FF9900;
+    visibility: visible;
+}
+.form-message .success{
+    color: #00FF99;
+}
+.form-message .fail{
+    color: #C80000;
+}
+.form-message.fail{
+    background-color: #C80000;
+    visibility: visible;
+}
+.form-label{
+    float: left;
+    font-weight: bolder;
+    width: 10em;
+    color: #006699;
+}
+.form-row{
+    height: 30px;
+}
+/*Button*/
+input[type="submit"], input[type="button"]{
+    color: #fff;
+    cursor: pointer;
+    text-shadow: none;
+    background: #3399FF;
+    border-radius: 12px;
+    margin: 6px 14px;
+    padding: 3px 7px;
+    border: 1px solid #33FFFF;
+
+
+
+}
+
+/* folder list */
+#folder-list th.folder-name{
+    width: 18em;
+}
+#folder-list th,#folder-list td{
+    /*    border-bottom: dotted 1px #eee ;
+        border-right: dotted 1px #eee;*/
+    padding-left:  10px;
+}
+
+#folder-list th.folder-select{
+    width: 3em;
+
+}
+#folder-list th.folder-action{
+    width: 16em;
+}
+#folder-list th.folder-size{
+    width: 6em;
+    text-align: right;
+    padding-right: 10px;
+}
+#folder-list th.folder-type{
+    width: 6em;
+}
+#folder-list td.folder-size{
+    text-align: right;
+    padding-right: 12px;
+}
+#folder-list a{
+    color: #fff;
+    font-size: 10px;
+    text-decoration: none;
+}
+#folder-list a:hover{
+    color: #eeeeee;
+    text-decoration: underline;
+}
+.button-panel input[type="submit"],.button-panel  input[type="button"] {
+
+    margin: 0px;
+    font-size: 7px;
+    padding: 2px 8px;
+}
+.button-panel input[type="submit"]:hover,.button-panel  input[type="button"]:hover{
+    background-color: #099;
+    border-color: #66FF66;
+}
+.hide{
+    display: none;
+}
+#folder-list-in-pop-up{
+    width: 100%;
+}
